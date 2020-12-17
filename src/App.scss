@@ -10,12 +10,12 @@
 .MiddleContainer {
   flex: 1;
   display: flex;
-}
-.MiddleContainer_left {
-  flex: 1;
-}
-.MiddleContainer_right {
-  flex: 2;
+  &_left {
+    flex: 1;
+  }
+  &_right {
+    flex: 2;
+  }
 }
 .BottomContainer {
   height: 100px;
