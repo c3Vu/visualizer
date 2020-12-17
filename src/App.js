@@ -1,8 +1,9 @@
-import TopBar from "./components/TopBar";
-import "./App.css";
-import CodeContainer from "./components/CodeContainer";
-import BottomBar from "./components/BottomBar";
-import VisualizerContainer from "./components/VisualizerContainer";
+import React from "react";
+import TopBar from "./containers/TopBar";
+import "./App.scss";
+import CodeContainer from "./containers/CodeContainer";
+import BottomBar from "./containers/BottomBar";
+import VisualizerContainer from "./containers/VisualizerContainer";
 
 function App() {
   return (
